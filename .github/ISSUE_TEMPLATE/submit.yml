@@ -1,0 +1,51 @@
+name: Submit to the community
+description: Share a theme, indicator, stack, workspace, or plugin with everyone who uses Stockyard.
+title: "[Submit] "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing. A maintainer reviews each submission before it shows up in Stockyard's **Community** window.
+        The easiest way to fill in this form is **Community → Share** inside Stockyard.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options:
+        - Theme
+        - Indicator
+        - Stack
+        - Workspace
+        - Plugin
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: Sunset
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One or two sentences about what it does or looks like.
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: Content
+      description: Stockyard copies this to your clipboard when you click Share. If this box is empty, paste it here.
+      render: text
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Permission
+      options:
+        - label: I made this, or I have the right to share it, and it can be listed for free.
+          required: true

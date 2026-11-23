@@ -1,0 +1,147 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-11-22T17:30:05-08:00",
+  "items": [
+    {
+      "id": "evergreen",
+      "kind": "theme",
+      "name": "Evergreen",
+      "description": "Deep forest greens with a slow green aurora drifting behind the chart.",
+      "author": "Stockyard team",
+      "version": "1.0.0",
+      "tags": [
+        "dark",
+        "green",
+        "animated"
+      ],
+      "file": "files/theme/evergreen.theme.json",
+      "sha256": "ef591de086ab64a72e9f7a6c44efd0e028ba53e68137386946bf614c8ae3092a",
+      "updatedAt": "2026-11-22T17:30:05-08:00"
+    },
+    {
+      "id": "fjord",
+      "kind": "theme",
+      "name": "Fjord",
+      "description": "Cool arctic blues and soft frost greens. Easy on the eyes for long sessions.",
+      "author": "Stockyard team",
+      "version": "1.0.0",
+      "tags": [
+        "dark",
+        "calm",
+        "blue"
+      ],
+      "file": "files/theme/fjord.theme.json",
+      "sha256": "0491eca5131c06c36e1afa2e1f40e6c1810c9aa7f1837440bf6d1fc8aba2fa13",
+      "updatedAt": "2026-11-22T17:30:05-08:00"
+    },
+    {
+      "id": "sandstone",
+      "kind": "theme",
+      "name": "Sandstone",
+      "description": "A warm light theme in paper and clay tones, for bright rooms and daytime trading.",
+      "author": "Stockyard team",
+      "version": "1.0.0",
+      "tags": [
+        "light",
+        "warm"
+      ],
+      "file": "files/theme/sandstone.theme.json",
+      "sha256": "ec6ea3715f6e55fd9fe255e7767e73df9361bd70455e031c4df15af2e3c9fcd3",
+      "updatedAt": "2026-11-22T17:30:05-08:00"
+    },
+    {
+      "id": "volume-weighted-rsi",
+      "kind": "indicator",
+      "name": "Volume-Weighted RSI",
+      "description": "RSI where each bar's move counts in proportion to its volume, so heavy-volume moves matter more than quiet drift.",
+      "author": "Stockyard team",
+      "version": "1.0.0",
+      "tags": [
+        "momentum",
+        "volume",
+        "oscillator"
+      ],
+      "file": "files/indicator/volume-weighted-rsi.indicator.js",
+      "sha256": "0fef76fddcf6dcbc329d5ba405e9a5c73314dfd13813afbbd7b9d390d18177e3",
+      "updatedAt": "2026-11-22T17:30:05-08:00"
+    },
+    {
+      "id": "zero-lag-ema",
+      "kind": "indicator",
+      "name": "Zero-Lag EMA",
+      "description": "An EMA fed with price plus its own recent change, so it turns with price instead of after it.",
+      "author": "Stockyard team",
+      "version": "1.0.0",
+      "tags": [
+        "moving average",
+        "trend",
+        "overlay"
+      ],
+      "file": "files/indicator/zero-lag-ema.indicator.js",
+      "sha256": "b296262dec40b1c25ea5ab166adf4f0db1db08a1928417269a89a0e7ed0fd855",
+      "updatedAt": "2026-11-22T17:30:05-08:00"
+    },
+    {
+      "id": "scalper",
+      "kind": "stack",
+      "name": "Scalper",
+      "description": "EMA 9 and 21 for direction, session VWAP for value, and Stoch RSI for timing entries.",
+      "author": "Stockyard team",
+      "version": "1.0.0",
+      "tags": [
+        "intraday",
+        "fast"
+      ],
+      "file": "files/stack/scalper.stack.json",
+      "sha256": "9694af386a3c13c47357abacd6062ca6056bac57937577d28d1f0adec84b1c91",
+      "updatedAt": "2026-11-22T17:30:05-08:00"
+    },
+    {
+      "id": "volatility-squeeze",
+      "kind": "stack",
+      "name": "Volatility squeeze",
+      "description": "Bollinger Bands inside Keltner Channels, with band width below, to spot quiet periods before a breakout.",
+      "author": "Stockyard team",
+      "version": "1.0.0",
+      "tags": [
+        "volatility",
+        "breakout",
+        "swing"
+      ],
+      "file": "files/stack/volatility-squeeze.stack.json",
+      "sha256": "9aabb3294a89f7db1a2e2be71df03336d6384fb93b3aca1c72122314ebfb3428",
+      "updatedAt": "2026-11-22T17:30:05-08:00"
+    },
+    {
+      "id": "crypto-majors",
+      "kind": "workspace",
+      "name": "Crypto majors",
+      "description": "A 2 × 2 grid with BTC, ETH, SOL and XRP on the hourly chart, crosshairs linked.",
+      "author": "Stockyard team",
+      "version": "1.0.0",
+      "tags": [
+        "crypto",
+        "multi-chart"
+      ],
+      "file": "files/workspace/crypto-majors.workspace.json",
+      "sha256": "a1f09343e2ec681069450116cb16262b384da4b059991368635b64952697fd58",
+      "updatedAt": "2026-11-22T17:30:05-08:00"
+    },
+    {
+      "id": "big-movers",
+      "kind": "plugin",
+      "name": "Big movers",
+      "description": "Adds a Big movers widget that lists the biggest 24h moves among the coins you pick, plus a purple Grape theme.",
+      "author": "Stockyard team",
+      "version": "1.0.0",
+      "tags": [
+        "widget",
+        "crypto",
+        "example"
+      ],
+      "file": "files/plugin/big-movers.plugin.js",
+      "sha256": "a3a2b901020da017deb99827b429b3a9d006ee269437232f68551d861450967a",
+      "updatedAt": "2026-11-22T17:30:05-08:00"
+    }
+  ]
+}
